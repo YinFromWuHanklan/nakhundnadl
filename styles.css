@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+nav .logo {
+  width: 30px;
+  padding-left: 1rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+nav ul li {
+  padding: 0 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header p {
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#dirndl .galerie {
+  display: flex;
+  flex-direction: row;
+}
+#dirndl .galerie img {
+  width: 30%;
+  border: 1px solid #333;
+  padding: 5px;
+  margin: 5px;
+}/*# sourceMappingURL=styles.css.map */
